@@ -15,6 +15,7 @@ public class ordercontroller {
 
     @RequestMapping("/order/docker")
     public String helloDocker() {
+        System.out.println("git change");
         return "hello docker " + "\t" + port + "\t" + UUID.randomUUID().toString();
     }
 
